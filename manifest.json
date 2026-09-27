@@ -1,0 +1,11 @@
+{
+    "id": "pollinations",
+    "name": "Pollinations",
+    "version": "1.0.0",
+    "minAppVersion": "1.5.0",
+    "description": "Generate text and images inside your notes with your own Pollinations models (BYOP).",
+    "author": "SvirepyiBambr",
+    "authorUrl": "https://github.com/SvirepyiBambr",
+    "fundingUrl": "",
+    "isDesktopOnly": false
+}
