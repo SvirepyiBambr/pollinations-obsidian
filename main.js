@@ -239,7 +239,7 @@ var PollinationsSettingTab = class extends import_obsidian.PluginSettingTab {
     new import_obsidian.Setting(containerEl).setName("API key").setDesc(
       "Create at https://enter.pollinations.ai/keys (BYOP: generation costs your Pollen)."
     ).addText(
-      (text) => text.setPlaceholder("polli_\u2026").setValue(this.plugin.settings.apiKey).onChange(async (value) => {
+      (text) => text.setPlaceholder("sk_\u2026").setValue(this.plugin.settings.apiKey).onChange(async (value) => {
         this.plugin.settings.apiKey = value.trim();
         await this.plugin.saveSettings();
       })
