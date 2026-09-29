@@ -65,3 +65,9 @@ strict mode, Obsidian API only — no runtime dependencies.
 ## License
 
 MIT
+
+## Live demo
+
+![Live API check](demo/live-run.png)
+
+Real run (2026-09-29): `POST /v1/chat/completions` and `POST /v1/images/generations` against `gen.pollinations.ai` with the plugin's exact request shape — text reply and the generated image are shown above (`demo/teapot-result.png` is the actual API result).
